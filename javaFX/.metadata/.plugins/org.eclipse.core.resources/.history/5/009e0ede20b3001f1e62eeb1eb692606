@@ -1,0 +1,78 @@
+
+/* Fondo general con una imagen de un paisaje */
+.root {
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Panel principal con transparencia */
+.panel {
+    -fx-background-color: rgba(255, 255, 255, 0.3); 
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+}
+
+/* Estilo para el TextField de usuario */
+.tfUsuario {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #8cb3d9; /* Azul claro */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Estilo para el TextField de contraseña */
+.tfContraseñ {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #f5a623; /* Naranja */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Botón para actualizar el label y realizar login */
+.bttEntrar {
+    -fx-background-color: linear-gradient(to bottom, #4caf50, #2e7d32); /* Verde degradado */
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.bttEntrar:hover {
+    -fx-background-color: linear-gradient(to bottom, #66bb6a, #388e3c); /* Verde más claro en hover */
+}
+
+/* Botón para salir de la aplicación */
+.bttSalir {
+    -fx-background-color: linear-gradient(to bottom, #e53935, #b71c1c);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.bttSalir:hover {
+    -fx-background-color: linear-gradient(to bottom, #ef5350, #c62828); /* Rojo más claro en hover */
+}
+
+
+.lbUsuario {
+    -fx-font-size: 16px;
+    -fx-text-fill: #2e7d32; 
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #2e7d32; 
+}
+
+

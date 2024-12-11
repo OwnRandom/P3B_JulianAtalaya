@@ -1,0 +1,33 @@
+package app.inicio;
+
+import java.io.IOException;
+
+import app.App;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class AppController {
+
+	
+	private Stage primaryStage;
+	
+	
+	public void changeScene(String fxml) {
+		
+		try {
+			
+		
+		
+		FXMLLoader loader = new FXMLLoader(App.class.getResource(fxml));
+		Scene scene = new Scene(loader.load());
+		primaryStage.setScene(scene);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+}

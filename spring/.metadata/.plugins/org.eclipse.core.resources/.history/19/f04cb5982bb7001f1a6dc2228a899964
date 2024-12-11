@@ -1,0 +1,19 @@
+package ceu.dam.ad.tema3.ejercicios.ejercicio01.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import lombok.Data;
+
+@Data
+@Entity
+public class Pelicula {
+
+	@jakarta.persistence.Id
+	@GeneratedValue()
+	private Integer id;
+	private String nombre;
+	private Integer longitud;
+	
+	
+
+}

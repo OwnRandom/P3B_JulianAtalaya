@@ -1,0 +1,15 @@
+package app.inicio;
+
+import javafx.stage.Stage;
+
+public class AppController {
+
+public static Stage primaryStage;
+	
+	public AppController() {	
+	}
+
+	public AppController(Stage stage) {
+		this.primaryStage = stage;
+	}
+}

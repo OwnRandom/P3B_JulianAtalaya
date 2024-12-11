@@ -1,0 +1,28 @@
+package ceu.dam.ad.tema3.ejercicios.ejercicio01.test;
+
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
+
+import ceu.dam.ad.tema3.ejercicios.ejercicio01.model.Pelicula;
+import ceu.dam.ad.tema3.ejercicios.ejercicio01.services.PeliculasException;
+import ceu.dam.ad.tema3.ejercicios.ejercicio01.services.PeliculasService;
+@Component
+public class TestEj1 {
+	
+	public void test() {
+		
+		ConfigurableApplicationContext context = SpringApplication.run(TestEj1.class);
+		
+		PeliculasService service = context.getBean(PeliculasService.class);
+		try {
+			List<Pelicula> peliculas = service.consultarPeliculas();
+			peliculas.forEach(System.out::println);
+		} catch (PeliculasException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

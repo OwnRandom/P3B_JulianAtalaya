@@ -1,0 +1,5 @@
+package ceu.dam.ad.tema3.ejercicios.ejercicio02.repository;
+
+public interface ClientesRepository {
+
+}

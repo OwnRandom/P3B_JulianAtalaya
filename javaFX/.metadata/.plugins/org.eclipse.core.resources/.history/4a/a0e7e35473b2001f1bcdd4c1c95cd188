@@ -1,0 +1,22 @@
+package app.inicio;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+
+public class HolaMundoController {
+
+    @FXML
+    private TextField tfAlgo;
+
+    @FXML
+    private Label lbAlgo;
+    
+    @FXML
+    public void imprimir(ActionEvent event) {
+    	System.out.println(tfAlgo.getText());
+    	lbAlgo.setText(tfAlgo.getText());
+    }
+
+}

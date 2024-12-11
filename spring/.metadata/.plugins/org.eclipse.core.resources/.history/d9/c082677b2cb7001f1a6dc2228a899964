@@ -1,0 +1,15 @@
+package ceu.dam.ad.tema3.ejercicios.ejercicio01.repository;
+
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import ceu.dam.ad.tema3.ejercicios.ejercicio01.model.Pelicula;
+
+
+
+public interface PeliculasRepository extends JpaRepository<Pelicula, Long>{
+	
+	
+
+}

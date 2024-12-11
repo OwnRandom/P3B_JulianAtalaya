@@ -1,0 +1,26 @@
+package app.inicio;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+
+public class PrincipalController extends AppController {
+
+
+	
+
+	public class PleaseProvideControllerClassName {
+
+	    @FXML
+	    void abrirPantalla1(ActionEvent event) {
+	    	
+	    }
+
+	    @FXML
+	    void abrirPantalla2(ActionEvent event) {
+
+	    }
+
+	}
+
+	
+}

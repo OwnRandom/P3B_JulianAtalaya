@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.ejemplo.repository.ActorRepository"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.ejemplo.service.ActorService"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.ejemplo.modelo.Actor"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.tema3.ejercicios.ejercicio01.model.Pelicula"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.tema3.ejercicios.ejercicio01.repository.PeliculasRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.dao.DataAccessException"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.tema3.ejercicios.ejercicio01.services.PeliculasService"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.tema3.ejercicios.ejercicio01.test.TestEj1"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.tema3.ejercicios.ejercicio02.model.Cliente"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="ceu.dam.ad.tema3.ejercicios.ejercicio02.repository.ClientesRepository"/>
+</qualifiedTypeNameHistroy>

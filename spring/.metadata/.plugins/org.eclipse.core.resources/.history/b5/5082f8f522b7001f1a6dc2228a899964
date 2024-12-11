@@ -1,0 +1,33 @@
+package ceu.dam.ad.ejemplo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import ceu.dam.ad.ejemplo.modelo.Actor;
+import ceu.dam.ad.ejemplo.service.ActorService;
+import ceu.dam.ad.ejemplo.service.ActorServiceException;
+
+@SpringBootApplication
+public class App {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(App.class, args);
+		
+		ActorService service = context.getBean(ActorService.class);
+		
+		System.out.println(service.consultarActor(4L));
+		
+		Actor a = new Actor();
+		a.setFirstName("Blalkdfbvqakjdhvbasojbvakjesbvsoidfhbvowaeifbvaoisdbjvapskdvjbapoijvbqoikvb s");
+		a.setLastName("de los montes");
+		try {
+			service.crearActor(a);
+		} catch (ActorServiceException e) {
+			System.out.println("error al insertar actor");
+		}
+		System.out.println(a);
+		
+	}
+
+}
